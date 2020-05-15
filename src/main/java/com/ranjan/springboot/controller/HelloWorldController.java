@@ -18,6 +18,6 @@ public class HelloWorldController {
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public String getRequest() {
 		
-		return "Welcome to Spring boot from Docker !!";
+		return "Welcome to Spring boot from Docker";
 	}
 }
